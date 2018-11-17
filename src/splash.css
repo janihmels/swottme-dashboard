@@ -1,0 +1,42 @@
+.splash-container {
+    
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0; 
+    background-image: url(./media/chinaback.jpg) ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+}
+
+.splash-container .start-here {
+    top: 38%; 
+    text-align: center;
+    font-size: 58px;
+    color: #333;
+    cursor: pointer;
+    margin-top: 238px;
+    border: 1px solid red;
+    border-radius: 8px;
+    width: 100%;
+    align: 'center';
+}
+
+.splash-container .start-here .inner {
+    margin: 8px auto;
+    text-align: center;
+    font-size: 38px;
+    color: #efefef;
+    cursor: pointer;
+    margin: 38px auto 38px auto;
+    padding: 8px 0 8px 0;
+    background: rgba(18,18,18,0.5);
+    border-radius: 8px;
+    width: 500px;
+    border: 2px solid #fff;
+}
